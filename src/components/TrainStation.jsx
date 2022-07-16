@@ -32,6 +32,7 @@ function TrainStation() {
 
       {/* Displays Departures or Arrivals components according to departureMode */}
       {departureMode && <Departures />}
+      {!departureMode && <Arrivals />}
     </div>
   );
 }
