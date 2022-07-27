@@ -1,5 +1,5 @@
 .arrival {
-    background-color: #017142ab;
+    background-color: #52bd90ab;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr 6fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
@@ -16,7 +16,7 @@
     }
 
     &--light {
-        background-color: #00A253ab;
+        background-color: #3c9269ab;
     }
 
     &__operator {
@@ -61,13 +61,23 @@
         grid-row-start: 1;
         grid-row-end: span 2;
         font-size: 1.2rem;
-
+        
+        
         @media screen and (max-width: 750px) {
             font-size: 1rem;
         }
 
         &--disappear {
             display: none;
+            color:red;
+           
+            
+        }
+
+        &--orange {
+            
+            color:orange; 
+            
         }
     }
 

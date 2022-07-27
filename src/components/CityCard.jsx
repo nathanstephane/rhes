@@ -7,7 +7,7 @@ function CityCard({ city }) {
     <Link
       to={`${city}`}
       className="city-card"
-      style={{ backgroundImage: `url('./images/${city}.webp')` }}
+      style={{ backgroundImage: `url('./images/${city}')` }}
     >
       <h3 className="city-card__name">{city}</h3>
     </Link>
