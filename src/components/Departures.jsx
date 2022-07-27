@@ -17,7 +17,7 @@ function Departures() {
         },
       }
     );
-    // console.log(response);
+    console.log(response);
 
     const nextDeparturesApi = response.data.departures.map((departure) => ({
       id: departure.links[1].id,
@@ -77,7 +77,7 @@ function Departures() {
             {getFullMinutes(departure.baseDepartureTime)}min
           </p>
           <p
-            className={`departure_delay ${
+            className={`departure__delay ${
               isTimeDisplayed ? 'departure__delay--disappear' : ''
             }`}
           >
