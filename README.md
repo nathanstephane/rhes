@@ -27,6 +27,7 @@ After cloning this repository.
 -   [ ] Request an API key from [SNCF](https://www.digital.sncf.com/startup/API)
     
 -   [ ] Create a .env on the project root and paste the API key as follow
+
     ![2022-07-29 13_31_32- env - rhes - Visual Studio Code](https://user-images.githubusercontent.com/75221936/181750355-d388fcbd-739a-49a9-b367-01e0c05f23de.png)
 
     
